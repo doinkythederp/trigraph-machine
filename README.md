@@ -8,3 +8,12 @@ int main() {}
 $ echo "// Testing123??/" | trigraph
 // Testing123\
 ```
+
+## Building
+
+Compile the project using `cargo`:
+
+```bash
+cargo build --release
+cargo build
+```
